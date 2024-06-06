@@ -1,0 +1,101 @@
+/*This class for logo.*/
+.img {
+    height: 110px;
+    width: 85px;
+}
+
+@media only screen and (min-width : 270px) and (max-width: 777px) {
+    .img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+.img1 {
+  height: 110px;
+  width: 100px;
+}
+
+.align {
+    margin: auto;
+}
+
+body{
+    background-color: rgba(245, 229, 229, 0.927);
+}
+
+
+@media only screen and (max-width: 755px) and (min-width: 260px) {
+    .cr {
+        height: 100px;
+    }
+}
+
+.p {
+    font-size: 20px ;
+}
+
+@media only screen and (max-width: 755px) and (min-width: 260px) {
+    .p {
+        font-size: 10px ;
+    }
+}
+
+.wrapper{
+    display:flex;
+    overflow-x: auto;
+}
+
+.wrapper .item
+{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.c1{
+    background-image: url('cr2.jpg');
+    height: 250px;
+}
+
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    margin: 30px 50px;
+  }
+  
+.bg{
+    background:linear-gradient(
+        to right,
+        rgb(255, 132, 0),
+        rgb(242, 255, 0)
+        );
+}
+
+.bg1{
+    background:linear-gradient(
+        to right,
+        rgb(35, 195, 195),
+        rgb(74, 235, 82)
+         );
+}
+
+.bg2{
+    background:linear-gradient(
+        to right,
+        rgb(216, 51, 216),
+        rgb(66, 201, 213)) ;
+}
+
+  .counter {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 580px) {
+    body {
+      flex-direction: column;
+    }
+  }

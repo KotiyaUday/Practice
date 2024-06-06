@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa; 
+  }
+  
+  .login-form, .registration-form {
+    margin-top: 50px; /* Add space between form and top */
+  }
+  
+  .text-center {
+    text-align: center; /* Center-align text */
+  }
+  
